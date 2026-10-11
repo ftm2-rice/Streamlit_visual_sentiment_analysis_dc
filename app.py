@@ -9,7 +9,7 @@ st.title("Data centers in Argentina — TF-IDF explorer")
 SEG_FILE = "tfidf_by_segment.csv"
 TERMS_FILE = "tf_terms.csv"
 SEGMENTS = ["outlet_post", "news_reply", "news_quote", "news_thread", "verified_opinion", "general_public"]
-SMALL_SEGMENT = 100  # segments with fewer posts than this get a "noisy" warning
+SMALL_SEGMENT = 40  # segments with fewer posts than this get a "noisy" warning
 
 
 @st.cache_data
